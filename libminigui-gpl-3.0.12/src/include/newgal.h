@@ -31,7 +31,7 @@ extern "C" {
 #define GAL_LIL_ENDIAN  MGUI_LIL_ENDIAN
 #define GAL_BIG_ENDIAN  MGUI_BIG_ENDIAN
 
-#define GAL_OutOfMemory()   fprintf (stderr, "Out of memory\n")
+#define GAL_OutOfMemory()   0//fprintf (stderr, "Out of memory\n")
 #define GAL_SetError        printf
 #define GAL_ClearError()
 

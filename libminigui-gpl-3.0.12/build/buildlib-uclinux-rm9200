@@ -10,12 +10,12 @@
 rm config.cache config.status -f
 
 CC=arm-uclibc-gcc \
-CFLAGS="-O2 -g -D__linux__ -I/home/ARM/arm-linux-uclibc/include -fno-builtin -nostartfiles " \
-LDFLAGS="-Wall  -static -L/home/ARM/arm-linux-uclibc/lib -lc" \
-./configure --prefix=/home/ARM/arm-linux-uclibc/minigui  \
+CFLAGS="-O2 -g -D__linux__ -I/home/ARM/arm-linux-androideabi-androideabi-uclibc/include -fno-builtin -nostartfiles " \
+LDFLAGS="-Wall  -static -L/home/ARM/arm-linux-androideabi-androideabi-uclibc/lib -lc" \
+./configure --prefix=/home/ARM/arm-linux-androideabi-androideabi-uclibc/minigui  \
     --build=i386-linux \
-    --host=arm-linux \
-    --target=arm-linux \
+    --host=arm-linux-androideabi \
+    --target=arm-linux-androideabi \
     --disable-shared \
     --with-style=flat \
     --with-osname=uclinux \

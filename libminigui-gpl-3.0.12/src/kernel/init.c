@@ -23,7 +23,7 @@
 #ifndef __NOUNIX__
 #include <unistd.h>
 #include <signal.h>
-#include <sys/termios.h>
+#include <termios.h>
 #endif
 
 #include "minigui.h"

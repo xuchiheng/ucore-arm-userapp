@@ -8,7 +8,9 @@
 
 #ifndef GUI_ZORDER_H
     #define GUI_ZORDER_H
-
+#ifndef __NOUNIX__
+#define __NOUNIX__
+#endif
 typedef struct _RECT4MASK {
     unsigned short left, top, right, bottom;
 } RECT4MASK;
@@ -103,6 +105,7 @@ typedef struct _ZORDERINFO
 #ifdef _MGRM_THREADS
 #ifndef __NOUNIX__
     pthread_rwlock_t rwlock;
+    //pthread_mutex_t  rwlock;
 #else
     pthread_mutex_t  rwlock;
 #endif

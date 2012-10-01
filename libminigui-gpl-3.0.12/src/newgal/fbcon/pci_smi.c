@@ -10,7 +10,7 @@
 */
 
 #include <stdio.h>
-#include <error.h>
+//#include <error.h>
 #include <string.h>
 
 /*#define _DEBUG*/

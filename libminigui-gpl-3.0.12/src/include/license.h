@@ -16,6 +16,9 @@
     defined(_MG_ENABLE_SCREENSAVER) || \
     defined(_MG_ENABLE_WATERMARK)
 
+#ifndef __NOUNIX__
+#define __NOUNIX__
+#endif
 #define _MG_ENABLE_LICENSE 1
 
 enum {

@@ -8,8 +8,8 @@ CFLAGS="-D__LITTLE_ENDIAN__ -O2 -g -Wall -D__linux__ -I/opt/uClinux/bfin-uclinux
 LDFLAGS="-Wl,-elf2flt  -L/opt/uClinux/bfin-uclinux/bfin-uclinux/lib/  -lc -lm -lpthread" \
 ./configure --prefix=/opt/uClinux/bfin-uclinux/bfin-uclinux/ \
     --build=i386-linux \
-    --host=arm-linux \
-    --target=arm-linux \
+    --host=arm-linux-androideabi \
+    --target=arm-linux-androideabi \
     --disable-shared \
     --with-style=classic \
     --with-osname=uclinux \

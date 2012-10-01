@@ -13,7 +13,7 @@
 #ifdef __cplusplus
 extern "C" {
 #endif  /* __cplusplus */
-
+typedef u_short ushort;
 #define VC_XLATE        0x0000   /* translate keycodes using keymap */
 #define VC_MEDIUMRAW    0x0001   /* medium raw (keycode) mode */
 #define VC_RAW          0x0002   /* raw (scancode) mode */

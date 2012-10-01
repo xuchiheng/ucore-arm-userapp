@@ -2,7 +2,7 @@ videogoldfish.lo: videogoldfish.c /usr/include/stdlib.h \
  /usr/include/features.h /usr/include/bits/predefs.h \
  /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
  /usr/include/gnu/stubs.h /usr/include/gnu/stubs-32.h \
- /opt/FriendlyARM/toolschain/4.4.3/lib/gcc/arm-none-linux-gnueabi/4.4.3/include/stddef.h \
+ /home/xch/arm-linux-androideabi-4.6/bin/../lib/gcc/arm-linux-androideabi/4.6.x-google/include/stddef.h \
  /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
  /usr/include/endian.h /usr/include/bits/endian.h \
  /usr/include/bits/byteswap.h /usr/include/xlocale.h \
@@ -13,10 +13,12 @@ videogoldfish.lo: videogoldfish.c /usr/include/stdlib.h \
  /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
  /usr/include/alloca.h /usr/include/stdio.h /usr/include/libio.h \
  /usr/include/_G_config.h /usr/include/wchar.h \
- /opt/FriendlyARM/toolschain/4.4.3/lib/gcc/arm-none-linux-gnueabi/4.4.3/include/stdarg.h \
+ /home/xch/arm-linux-androideabi-4.6/bin/../lib/gcc/arm-linux-androideabi/4.6.x-google/include/stdarg.h \
  /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
- /usr/include/string.h /usr/include/fcntl.h /usr/include/bits/fcntl.h \
- /usr/include/bits/uio.h /usr/include/bits/stat.h /usr/include/unistd.h \
+ /usr/include/bits/stdio.h /usr/include/string.h \
+ /usr/include/bits/string.h /usr/include/bits/string2.h \
+ /usr/include/fcntl.h /usr/include/bits/fcntl.h /usr/include/bits/uio.h \
+ /usr/include/bits/stat.h /usr/include/unistd.h \
  /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
  /usr/include/bits/confname.h /usr/include/getopt.h \
  /usr/include/sys/ioctl.h /usr/include/bits/ioctls.h \
@@ -31,27 +33,26 @@ videogoldfish.lo: videogoldfish.c /usr/include/stdlib.h \
  /usr/include/linux/posix_types.h /usr/include/linux/stddef.h \
  /usr/include/asm/posix_types.h /usr/include/asm/posix_types_64.h \
  /usr/include/linux/i2c.h \
- /home/chenyh/os/ucore-arm-userapp/libminigui-gpl-3.0.12/include/common.h \
- /home/chenyh/os/ucore-arm-userapp/libminigui-gpl-3.0.12/include/../mgconfig.h \
+ /home/xch/ucore-arm-userapp/libminigui-gpl-3.0.12/include/common.h \
+ /home/xch/ucore-arm-userapp/libminigui-gpl-3.0.12/include/../mgconfig.h \
  /usr/include/limits.h \
- /home/chenyh/os/ucore-arm-userapp/install/usr/include/limits.h \
- /opt/FriendlyARM/toolschain/4.4.3/lib/gcc/arm-none-linux-gnueabi/4.4.3/include-fixed/limits.h \
+ /home/xch/arm-linux-androideabi-4.6/bin/../lib/gcc/arm-linux-androideabi/4.6.x-google/include-fixed/limits.h \
  /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h \
  /usr/include/linux/limits.h /usr/include/bits/posix2_lim.h \
  /usr/include/bits/xopen_lim.h /usr/include/pthread.h \
  /usr/include/sched.h /usr/include/bits/sched.h /usr/include/bits/timex.h \
  /usr/include/bits/setjmp.h /usr/include/semaphore.h \
  /usr/include/bits/semaphore.h \
- /home/chenyh/os/ucore-arm-userapp/libminigui-gpl-3.0.12/include/minigui.h \
- /home/chenyh/os/ucore-arm-userapp/libminigui-gpl-3.0.12/src/include/misc.h \
+ /home/xch/ucore-arm-userapp/libminigui-gpl-3.0.12/include/minigui.h \
+ /home/xch/ucore-arm-userapp/libminigui-gpl-3.0.12/src/include/misc.h \
  /usr/include/sys/time.h \
- /home/chenyh/os/ucore-arm-userapp/libminigui-gpl-3.0.12/src/include/newgal.h \
- /home/chenyh/os/ucore-arm-userapp/libminigui-gpl-3.0.12/include/gdi.h \
- /home/chenyh/os/ucore-arm-userapp/libminigui-gpl-3.0.12/include/endianrw.h \
- /home/chenyh/os/ucore-arm-userapp/libminigui-gpl-3.0.12/src/newgal/sysvideo.h \
- /home/chenyh/os/ucore-arm-userapp/libminigui-gpl-3.0.12/src/newgal/pixels_c.h \
- /home/chenyh/os/ucore-arm-userapp/libminigui-gpl-3.0.12/src/newgal/blit.h \
- /home/chenyh/os/ucore-arm-userapp/libminigui-gpl-3.0.12/src/newgal/blit_A.h \
+ /home/xch/ucore-arm-userapp/libminigui-gpl-3.0.12/src/include/newgal.h \
+ /home/xch/ucore-arm-userapp/libminigui-gpl-3.0.12/include/gdi.h \
+ /home/xch/ucore-arm-userapp/libminigui-gpl-3.0.12/include/endianrw.h \
+ /home/xch/ucore-arm-userapp/libminigui-gpl-3.0.12/src/newgal/sysvideo.h \
+ /home/xch/ucore-arm-userapp/libminigui-gpl-3.0.12/src/newgal/pixels_c.h \
+ /home/xch/ucore-arm-userapp/libminigui-gpl-3.0.12/src/newgal/blit.h \
+ /home/xch/ucore-arm-userapp/libminigui-gpl-3.0.12/src/newgal/blit_A.h \
  videogoldfish.h
 
 /usr/include/stdlib.h:
@@ -68,7 +69,7 @@ videogoldfish.lo: videogoldfish.c /usr/include/stdlib.h \
 
 /usr/include/gnu/stubs-32.h:
 
-/opt/FriendlyARM/toolschain/4.4.3/lib/gcc/arm-none-linux-gnueabi/4.4.3/include/stddef.h:
+/home/xch/arm-linux-androideabi-4.6/bin/../lib/gcc/arm-linux-androideabi/4.6.x-google/include/stddef.h:
 
 /usr/include/bits/waitflags.h:
 
@@ -112,13 +113,19 @@ videogoldfish.lo: videogoldfish.c /usr/include/stdlib.h \
 
 /usr/include/wchar.h:
 
-/opt/FriendlyARM/toolschain/4.4.3/lib/gcc/arm-none-linux-gnueabi/4.4.3/include/stdarg.h:
+/home/xch/arm-linux-androideabi-4.6/bin/../lib/gcc/arm-linux-androideabi/4.6.x-google/include/stdarg.h:
 
 /usr/include/bits/stdio_lim.h:
 
 /usr/include/bits/sys_errlist.h:
 
+/usr/include/bits/stdio.h:
+
 /usr/include/string.h:
+
+/usr/include/bits/string.h:
+
+/usr/include/bits/string2.h:
 
 /usr/include/fcntl.h:
 
@@ -184,15 +191,13 @@ videogoldfish.lo: videogoldfish.c /usr/include/stdlib.h \
 
 /usr/include/linux/i2c.h:
 
-/home/chenyh/os/ucore-arm-userapp/libminigui-gpl-3.0.12/include/common.h:
+/home/xch/ucore-arm-userapp/libminigui-gpl-3.0.12/include/common.h:
 
-/home/chenyh/os/ucore-arm-userapp/libminigui-gpl-3.0.12/include/../mgconfig.h:
+/home/xch/ucore-arm-userapp/libminigui-gpl-3.0.12/include/../mgconfig.h:
 
 /usr/include/limits.h:
 
-/home/chenyh/os/ucore-arm-userapp/install/usr/include/limits.h:
-
-/opt/FriendlyARM/toolschain/4.4.3/lib/gcc/arm-none-linux-gnueabi/4.4.3/include-fixed/limits.h:
+/home/xch/arm-linux-androideabi-4.6/bin/../lib/gcc/arm-linux-androideabi/4.6.x-google/include-fixed/limits.h:
 
 /usr/include/bits/posix1_lim.h:
 
@@ -218,24 +223,24 @@ videogoldfish.lo: videogoldfish.c /usr/include/stdlib.h \
 
 /usr/include/bits/semaphore.h:
 
-/home/chenyh/os/ucore-arm-userapp/libminigui-gpl-3.0.12/include/minigui.h:
+/home/xch/ucore-arm-userapp/libminigui-gpl-3.0.12/include/minigui.h:
 
-/home/chenyh/os/ucore-arm-userapp/libminigui-gpl-3.0.12/src/include/misc.h:
+/home/xch/ucore-arm-userapp/libminigui-gpl-3.0.12/src/include/misc.h:
 
 /usr/include/sys/time.h:
 
-/home/chenyh/os/ucore-arm-userapp/libminigui-gpl-3.0.12/src/include/newgal.h:
+/home/xch/ucore-arm-userapp/libminigui-gpl-3.0.12/src/include/newgal.h:
 
-/home/chenyh/os/ucore-arm-userapp/libminigui-gpl-3.0.12/include/gdi.h:
+/home/xch/ucore-arm-userapp/libminigui-gpl-3.0.12/include/gdi.h:
 
-/home/chenyh/os/ucore-arm-userapp/libminigui-gpl-3.0.12/include/endianrw.h:
+/home/xch/ucore-arm-userapp/libminigui-gpl-3.0.12/include/endianrw.h:
 
-/home/chenyh/os/ucore-arm-userapp/libminigui-gpl-3.0.12/src/newgal/sysvideo.h:
+/home/xch/ucore-arm-userapp/libminigui-gpl-3.0.12/src/newgal/sysvideo.h:
 
-/home/chenyh/os/ucore-arm-userapp/libminigui-gpl-3.0.12/src/newgal/pixels_c.h:
+/home/xch/ucore-arm-userapp/libminigui-gpl-3.0.12/src/newgal/pixels_c.h:
 
-/home/chenyh/os/ucore-arm-userapp/libminigui-gpl-3.0.12/src/newgal/blit.h:
+/home/xch/ucore-arm-userapp/libminigui-gpl-3.0.12/src/newgal/blit.h:
 
-/home/chenyh/os/ucore-arm-userapp/libminigui-gpl-3.0.12/src/newgal/blit_A.h:
+/home/xch/ucore-arm-userapp/libminigui-gpl-3.0.12/src/newgal/blit_A.h:
 
 videogoldfish.h:

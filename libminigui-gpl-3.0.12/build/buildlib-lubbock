@@ -2,11 +2,11 @@
 
 rm config.cache config.status -f
 
-CC=arm-linux-gcc \
-./configure --prefix=/usr/local/arm-linux \
+CC=arm-linux-androideabi-androideabi-gcc \
+./configure --prefix=/usr/local/arm-linux-androideabi \
     --build=i386-linux \
-    --host=arm-linux \
-    --target=arm-linux \
+    --host=arm-linux-androideabi \
+    --target=arm-linux-androideabi \
     --disable-debug \
     --enable-procs \
     --enable-dummyial \

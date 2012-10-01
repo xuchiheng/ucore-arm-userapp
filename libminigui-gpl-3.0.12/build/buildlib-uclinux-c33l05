@@ -9,8 +9,8 @@ CFLAGS="-g -O2 -fpic -Wall -Wstrict-prototypes -fno-strict-aliasing -mgda=0 -mdp
 LDFLAGS="-L/usr/local/c33-linux/c33-axlinux/lib" \
 ./configure --prefix=/usr/local/c33-linux/c33-axlinux/ \
     --build=i386-linux \
-    --host=arm-linux \
-    --target=arm-linux \
+    --host=arm-linux-androideabi \
+    --target=arm-linux-androideabi \
     --disable-shared \
     --with-targetname=c33l05 \
     --with-style=fashion \

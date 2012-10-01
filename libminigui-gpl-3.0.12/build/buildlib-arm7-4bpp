@@ -12,13 +12,13 @@
 
 rm config.cache config.status -f
 
-CC=arm-linux-gcc \
-#CFLAGS="-O2 -g -I/usr/local/arm-linux/arm-linux/include" \
-#LDFLAGS="-L/usr/local/arm-linux/arm-linux/lib" \
-./configure --prefix=/usr/local/arm-linux/arm-linux \
+CC=arm-linux-androideabi-androideabi-gcc \
+#CFLAGS="-O2 -g -I/usr/local/arm-linux-androideabi/arm-linux-androideabi/include" \
+#LDFLAGS="-L/usr/local/arm-linux-androideabi/arm-linux-androideabi/lib" \
+./configure --prefix=/usr/local/arm-linux-androideabi/arm-linux-androideabi \
     --build=i386-linux \
-    --host=arm-linux \
-    --target=arm-linux \
+    --host=arm-linux-androideabi \
+    --target=arm-linux-androideabi \
     --with-osname=linux \
     --enable-procs \
     --enable-incoreres \

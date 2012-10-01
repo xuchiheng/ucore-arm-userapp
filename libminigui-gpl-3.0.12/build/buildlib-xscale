@@ -1,11 +1,11 @@
 #!/bin/sh
 rm -f config.cache config.status
 
-CC=arm-linux-gcc \
-./configure --prefix=/usr/local/arm-linux/arm-linux \
+CC=arm-linux-androideabi-androideabi-gcc \
+./configure --prefix=/usr/local/arm-linux-androideabi/arm-linux-androideabi \
     --build=i686-linux \
-    --host=arm-linux \
-    --target=arm-linux \
+    --host=arm-linux-androideabi \
+    --target=arm-linux-androideabi \
     --with-osname=linux \
     --enable-procs \
     --enable-incoreres \
