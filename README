@@ -26,6 +26,12 @@ cd ./libminigui-gpl-3.0.12/
 
 Ignore the error "./configure: line 15636: ./runme.sh: No such file or directory"
 
+//for bionicC use arm-linux-androideabi-gcc
+for i in `find . -type f`; do sed -i 's/arm-linux-/arm-linux-androideabi-/g' $i; done
+
+arm-linux-androideabi-gcc minesweeper.c -I ../install/include/ ../install/lib/libminigui_ths.a -lm -o minesweeper
+/home/xch/android-sdk-linux/tools/emulator -avd tester -kernel obj/kernel/kernel-arm.elf -qemu -serial stdio
+
 make -j8
 make install
 
