@@ -1,23 +1,4 @@
-uClibc
-
-cp ./uclibc_config.linuxthread ./uClibc-0.9.33/.config
-
-cd ./uClibc-0.9.33/
-
-make menuconfig
-
-Target Arch Features and Options -> Linux kernel header locate
-set to `pwd`/../linux_header_goldfish/include (MUST enter fullpath!)
-
-Library Installation Options
-uClibc runtime libarary directory: `pwd`/install (MUST enter fullpath!)
-uClibc development env dir: `pwd`/../install/usr (MUST enter fullpath!)
-
-make -j6
-make install
-
-
-MiniGUI
+//MiniGUI
 
 source env.sh
 (you may need to modify GCC_LIB in env.sh)
@@ -29,13 +10,19 @@ Ignore the error "./configure: line 15636: ./runme.sh: No such file or directory
 //for bionicC use arm-linux-androideabi-gcc
 for i in `find . -type f`; do sed -i 's/arm-linux-/arm-linux-androideabi-/g' $i; done
 
-arm-linux-androideabi-gcc minesweeper.c -I ../install/include/ ../install/lib/libminigui_ths.a -lm -o minesweeper
-/home/xch/android-sdk-linux/tools/emulator -avd tester -kernel obj/kernel/kernel-arm.elf -qemu -serial stdio
-
 make -j8
 make install
 
-you might need the resource package, download it from minigui.com
-install into ./install
+//minesweeper
+cd ../minesweeper/
+make
 
-Now, you get every thing you need in ./install
+//now copy the runable file minesweeper to the ucore
+cp minesweeper ../../ucore_plus/ucore/src/user-ucore/_initial/
+
+//run ucore now
+/home/xch/android-sdk-linux/tools/emulator -avd tester -kernel obj/kernel/kernel-arm.elf -qemu -serial stdio
+
+//run the minesweeper in the ucore
+minesweeper
+
